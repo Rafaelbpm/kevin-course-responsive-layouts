@@ -1,9 +1,19 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: sans-serif;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: hsla(192, 36%, 21%, 1);
+  padding: 100px;
+  padd
+}
+
+.header-content{
+    color:#FFFFFF;
+    width: 50%;
+}
