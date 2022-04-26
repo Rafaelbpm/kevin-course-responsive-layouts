@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border: 1px solid yellow;
 }
 
 body {
@@ -7,25 +8,27 @@ body {
   font-family: sans-serif;
 }
 
-.header {
+.hero {
+  padding: 100px 0;
   background-color: hsla(192, 36%, 21%, 1);
-  padding: 100px;
-  min-height: 60%;
+  color: #fff;
 }
 
-.header-title {
-  color: #ffffff;
-  max-width: 710px;
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
   font-size: 24px;
   overflow: hidden;
 }
 
-.header-content {
+.hero__text {
+  width: 50%;
   font-size: 1rem;
   color: #dbdbdb;
 }
 
-.btn-learn {
+.btn {
   border-style: none;
   font-size: 21px;
   font-weight: 700;
