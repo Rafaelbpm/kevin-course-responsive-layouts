@@ -10,10 +10,30 @@ body {
 .header {
   background-color: hsla(192, 36%, 21%, 1);
   padding: 100px;
-  padd
+  min-height: 60%;
 }
 
-.header-content{
-    color:#FFFFFF;
-    width: 50%;
+.header-title {
+  color: #ffffff;
+  max-width: 710px;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.header-content {
+  font-size: 1rem;
+  color: #dbdbdb;
+}
+
+.btn-learn {
+  border-style: none;
+  font-size: 21px;
+  font-weight: 700;
+  max-width: 285px;
+  padding: 18px;
+  border-radius: 31.5px;
+  background-color: hsla(184, 68%, 53%, 1);
+  margin-top: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
