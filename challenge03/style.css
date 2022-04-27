@@ -53,6 +53,7 @@ h1 {
 
 .row{
   display: flex;
+  padding: 100px 0;
 }
 
 .col{
@@ -65,13 +66,22 @@ h1 {
   color: #87629a ;
 }
 
+.container-2{
+  width: 100%;
+  margin: 0 auto;
+}
+
 .row-2{
   padding: 100px 0;
   background-color: #136c72;
   color: #fff;
   display: flex;
   text-align: center;
-  width: 100%;
+}
+
+.col-2 p{
+  width: 50%;
+  margin: 0 auto;
 }
 
 
