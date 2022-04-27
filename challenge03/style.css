@@ -48,40 +48,38 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    opacity: .75; 
+  opacity: 0.75;
 }
 
-.row{
+.row {
   display: flex;
   padding: 100px 0;
 }
 
-.col{
+.col {
   text-align: center;
   margin-right: 10px;
   width: 100%;
 }
 
-.col h2{
-  color: #87629a ;
+.col h2 {
+  color: #87629a;
 }
 
-.container-2{
+.container-2 {
   width: 100%;
-  margin: 0 auto;
-}
-
-.row-2{
   padding: 100px 0;
   background-color: #136c72;
+}
+
+.row-2 {
+  margin: 0 auto;
   color: #fff;
   display: flex;
   text-align: center;
-}
-
-.col-2 p{
   width: 50%;
-  margin: 0 auto;
 }
 
-
+.col-2 {
+  width: 80%;
+}
