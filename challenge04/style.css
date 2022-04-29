@@ -90,3 +90,23 @@ h1 {
 .btn:focus {
     opacity: .75; 
 }
+
+.section2{
+    display: flex;
+    margin: 3em 0;
+}
+
+.custom-made{
+    margin-right: 2em;
+}
+
+.custom-made h2{
+color:#136C72;
+}
+
+.bennefits{
+    background-color: #136C72;
+    color: #FFF;
+    text-align: center;
+    padding: 2em;
+}
