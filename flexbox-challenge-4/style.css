@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: "Playfair Display", serif;
   font-family: "Roboto", sans-serif;
   max-width: 1128px;
   margin: 0 auto;
@@ -17,6 +18,10 @@ img {
 }
 
 header {
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
 }
 
 .main-banner {
@@ -34,5 +39,21 @@ header {
   font-family: "Playfair Display", serif;
   font-size: 3.75rem;
   text-align: center;
+  margin-top: 200px;
   color: #824936;
+}
+
+.quality-designs {
+  min-height: 330px;
+  font-family: ;
+}
+
+.two-col {
+  display: flex;
+  padding: 80px;
+}
+
+.two-col p{
+    max-width: 600px;
+    margin-left: 60px;
 }
