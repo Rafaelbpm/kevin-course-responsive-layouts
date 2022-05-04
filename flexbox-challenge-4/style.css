@@ -7,6 +7,32 @@
 }
 
 body {
-  font-family: "Playfair Display", serif;
   font-family: "Roboto", sans-serif;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+}
+
+.main-banner {
+  background-color: #f3eed9;
+  min-height: 660px;
+}
+
+.main-banner p {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
+.main-banner h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.75rem;
+  text-align: center;
+  color: #824936;
 }
