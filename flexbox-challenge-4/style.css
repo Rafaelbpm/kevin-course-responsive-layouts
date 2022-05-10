@@ -45,15 +45,23 @@ h2 {
 
 .quality-designs {
   min-height: 330px;
-  font-family: ;
+}
+
+.quality-designs h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 80px;
+  color: #824936;
 }
 
 .two-col {
   display: flex;
-  padding: 80px;
+  padding: 0 80px 80px 80px ;
 }
 
-.two-col p{
-    max-width: 600px;
-    margin-left: 60px;
+.two-col p {
+  max-width: 600px;
+  margin-left: 60px;
 }
+
+
