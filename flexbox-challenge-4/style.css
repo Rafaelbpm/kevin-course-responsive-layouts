@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   max-width: 1128px;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
 img {
@@ -18,6 +19,7 @@ img {
 }
 
 header {
+  background-color: #f3eed9;
 }
 
 h2 {
@@ -56,7 +58,7 @@ h2 {
 
 .two-col {
   display: flex;
-  padding: 0 80px 80px 80px ;
+  padding: 0 80px 80px 80px;
 }
 
 .two-col p {
@@ -64,4 +66,21 @@ h2 {
   margin-left: 60px;
 }
 
+.green-section {
+  display: flex;
+  background-color: #222c2a;
+  padding: 80px;
+}
 
+.green-section__text {
+  line-height: 1.6;
+}
+
+.green-section__text h2 {
+  color: #f3eed9;
+}
+
+.green-section__text p {
+  color: #fff;
+  max-width: 75%;
+}
